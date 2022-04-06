@@ -16,7 +16,7 @@ Example: `saturate(hsl(90, 80%, 50%), 20%)`
 
 Output: `#80ff00 // hsl(90, 100%, 50%)`
 
-![Color 1](holder.js/100x40/#80e619:#000000/text:80e619) ➜ ![Color 2](holder.js/100x40/#80ff00:#000000/text:80ff00)
+![Color 1](https://via.placeholder.com/100x40/80e619/000000&text=80e619) ➜ ![Color 2](https://via.placeholder.com/100x40/80ff00/000000&text=80ff00)
 
 ### desaturate
 
@@ -34,7 +34,7 @@ Example: `desaturate(hsl(90, 80%, 50%), 20%)`
 
 Output: `#80cc33 // hsl(90, 60%, 50%)`
 
-![Color 1](holder.js/100x40/#80e619:#000000/text:80e619) ➜ ![Color 2](holder.js/100x40/#80cc33:#000000/text:80cc33)
+![Color 1](https://via.placeholder.com/100x40/80e619/000000&text=80e619) ➜ ![Color 2](https://via.placeholder.com/100x40/80cc33/000000&text=80cc33)
 
 ### lighten
 
@@ -52,7 +52,7 @@ Example: `lighten(hsl(90, 80%, 50%), 20%)`
 
 Output: `#b3f075 // hsl(90, 80%, 70%)`
 
-![Color 1](holder.js/100x40/#80e619:#000000/text:80e619) ➜ ![Color 2](holder.js/100x40/#b3f075:#000000/text:b3f075)
+![Color 1](https://via.placeholder.com/100x40/80e619/000000&text=80e619) ➜ ![Color 2](https://via.placeholder.com/100x40/b3f075/000000&text=b3f075)
 
 ### darken
 
@@ -70,7 +70,7 @@ Example: `darken(hsl(90, 80%, 50%), 20%)`
 
 Output: `#4d8a0f // hsl(90, 80%, 30%)`
 
-![Color 1](holder.js/100x40/#80e619:#000000/text:80e619) ➜ ![Color 2](holder.js/100x40/#4d8a0f:#000000/text:4d8a0f)
+![Color 1](https://via.placeholder.com/100x40/80e619/000000&text=80e619) ➜ ![Color 2](https://via.placeholder.com/100x40/4d8a0f/000000&text=4d8a0f)
 
 ### fadein
 
@@ -163,9 +163,9 @@ Output:
 #f20d59 // hsl(340, 90%, 50%)
 ```
 
-![Color 1](holder.js/100x40/#f2330d:#000000/text:f2330d) ➜ ![Color 2](holder.js/100x40/#f2a60d:#000000/text:f2a60d)
+![Color 1](https://via.placeholder.com/100x40/f2330d/000000&text=f2330d) ➜ ![Color 2](https://via.placeholder.com/100x40/f2a60d/000000&text=f2a60d)
 
-![Color 1](holder.js/100x40/#f2330d:#000000/text:f2330d) ➜ ![Color 2](holder.js/100x40/#f20d59:#000000/text:f20d59)
+![Color 1](https://via.placeholder.com/100x40/f2330d/000000&text=f2330d) ➜ ![Color 2](https://via.placeholder.com/100x40/f20d59/000000&text=f20d59)
 
 ### mix
 
@@ -193,7 +193,7 @@ Output:
 rgba(75, 25, 0, 0.75)
 ```
 
-![Color 1](holder.js/100x40/#ff0000:#ffffff/text:ff0000) + ![Color 2](holder.js/100x40/#0000ff:#ffffff/text:0000ff) ➜ ![Color 3](holder.js/100x40/#800080:#ffffff/text:800080)
+![Color 1](https://via.placeholder.com/100x40/ff0000/ffffff&text=ff0000) + ![Color 2](https://via.placeholder.com/100x40/0000ff/ffffff&text=0000ff) ➜ ![Color 3](https://via.placeholder.com/100x40/800080/ffffff&text=800080)
 
 ### tint
 
@@ -220,7 +220,7 @@ no-alpha: #80bfff;
 with-alpha: rgba(191, 191, 255, 0.75);
 ```
 
-![Color 1](holder.js/100x40/#ff00ff:#ffffff/text:ff00ff) ➜ ![Color 2](holder.js/100x40/#ff80ff:#ffffff/text:ff80ff)
+![Color 1](https://via.placeholder.com/100x40/ff00ff/ffffff&text=ff00ff) ➜ ![Color 2](https://via.placeholder.com/100x40/ff80ff/ffffff&text=ff80ff)
 
 ### shade
 
@@ -247,7 +247,7 @@ no-alpha: #004080;
 with-alpha: rgba(0, 0, 64, 0.75);
 ```
 
-![Color 1](holder.js/100x40/#ff00ff:#ffffff/text:ff00ff) ➜ ![Color 2](holder.js/100x40/#800080:#ffffff/text:800080)
+![Color 1](https://via.placeholder.com/100x40/ff00ff/ffffff&text=ff00ff) ➜ ![Color 2](https://via.placeholder.com/100x40/800080/ffffff&text=800080)
 
 ### greyscale
 
@@ -263,7 +263,7 @@ Example: `greyscale(hsl(90, 90%, 50%))`
 
 Output: `#808080 // hsl(90, 0%, 50%)`
 
-![Color 1](holder.js/100x40/#80f20d:#000000/text:80f20d) ➜ ![Color 2](holder.js/100x40/#808080:#000000/text:808080)
+![Color 1](https://via.placeholder.com/100x40/80f20d/000000&text=80f20d) ➜ ![Color 2](https://via.placeholder.com/100x40/808080/000000&text=808080)
 
 Notice that the generated grey looks darker than the original green, even though its lightness value is the same.
 
@@ -276,7 +276,7 @@ color: rgb(@c, @c, @c);
 
 Output: `#cacaca`
 
-![Color 1](holder.js/100x40/#80f20d:#000000/text:80f20d) ➜ ![Color 2](holder.js/100x40/#cacaca:#000000/text:cacaca)
+![Color 1](https://via.placeholder.com/100x40/80f20d/000000&text=80f20d) ➜ ![Color 2](https://via.placeholder.com/100x40/cacaca/000000&text=cacaca)
 
 This time the grey's lightness looks about the same as the green, though its value is actually higher.
 
@@ -322,8 +322,8 @@ p {
 ```
 These examples use the above calculated colors for background and foreground; you can see that you never end up with white-on-white, nor black-on-black, though it's possible to use the threshold to permit lower-contrast outcomes, as in the last example:
 
-![Color 1](holder.js/100x40/#bbbbbb:#000000/text:000000)
-![Color 1](holder.js/100x40/#222222:#ffffff/text:ffffff)
-![Color 1](holder.js/100x40/#222222:#dddddd/text:dddddd)
-![Color 1](holder.js/100x40/#80ff00:#000000/text:000000)
-![Color 1](holder.js/100x40/#80ff00:#ffffff/text:ffffff)
+![Color 1](https://via.placeholder.com/100x40/bbbbbb/000000&text=000000)
+![Color 1](https://via.placeholder.com/100x40/222222/ffffff&text=ffffff)
+![Color 1](https://via.placeholder.com/100x40/222222/dddddd&text=dddddd)
+![Color 1](https://via.placeholder.com/100x40/80ff00/000000&text=000000)
+![Color 1](https://via.placeholder.com/100x40/80ff00/ffffff&text=ffffff)
